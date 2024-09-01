@@ -35,7 +35,7 @@ public class Consumer {
     public Consumer readAll() {
         while (true) {
             try {
-                Message message = this.messageConsumer.receiveNoWait();
+                Message message = this.messageConsumer.receive(2000);
                 if (message instanceof TextMessage) {
                     this.messages.add(((TextMessage) message).getText());
                 } else {

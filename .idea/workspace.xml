@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf2ffba0-1793-46f9-9bea-6ea7def0af13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ifce/model/ChatMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ifce/network/activemq/BrokerMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ifce/network/activemq/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ifce/network/activemq/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ifce/network/rmi/OfflineMessagingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ifce/network/rmi/OfflineMessagingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ifce/network/rmi/RMIServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifce/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifce/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifce/network/activemq/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifce/network/activemq/Consumer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,5 +79,16 @@
       <updated>1724713193600</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/ifce/network/rmi/OfflineMessagingServiceImpl.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
